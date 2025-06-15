@@ -39,7 +39,7 @@ rv32i_cpu/
 │   ├── tb.v
 │   ├── boot.hex       # Compiled RISC-V assembly program
 │   └── rv32i.vcd      # Generated waveform
-├── prog/
+├── fw/
 │   ├── main.S         # Sample program (add x1 and x2, store to mem)
-│   └── gen_hex.sh     # Use RISC-V GNU toolchain to build boot.hex
+│   └── gen_hex.py     # Build boot.hex
 └── README.md
