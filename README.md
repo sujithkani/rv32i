@@ -51,4 +51,4 @@ rv32i_cpu/
   - Ensure you have ```iverilog``` added to the path.
   - Navigate to the directory containing the testbench: ```tb.v```
   - From that directory, run ```iverilog -o rv32i_sim ../rtl/*.v tb.v```
-  - Once the compilation is done, execute by ```vvp rv32i_sim``` in the same directory to see the program result
+  - Once the compilation is done, execute by ```vvp rv32i_sim``` in the same directory to see the program result.
