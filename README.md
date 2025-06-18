@@ -52,8 +52,9 @@ rv32i_cpu/
   - Navigate to the directory containing the testbench: ```tb.v```
   - From that directory, run ```iverilog -o rv32i_sim ../rtl/*.v tb.v```
   - Once the compilation is done, execute by ```vvp rv32i_sim``` in the same directory to see the program result.
+---
 
-#Limitations
+# Limitations
   - No pipeline (single-cycle model).
   - No floating-point support.
   - No support for multiply/divide operations (Can be implemeted through loops in the .asm code)
