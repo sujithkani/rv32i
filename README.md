@@ -40,6 +40,6 @@ rv32i_cpu/
 │   ├── boot.hex       # Compiled RISC-V assembly program
 │   └── rv32i.vcd      # Generated waveform
 ├── fw/
-│   ├── main.S         # Sample program (add x1 and x2, store to mem)
+│   ├── boot.S         # Sample program (add x1 and x2, store to mem)
 │   └── gen_hex.py     # Build boot.hex
 └── README.md
