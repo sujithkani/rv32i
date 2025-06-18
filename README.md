@@ -37,11 +37,10 @@ rv32i_cpu/
 │   └── simple_ram.v
 ├── sim/
 │   ├── tb.v
-│   ├── boot.hex       # Compiled RISC-V assembly program
-│   └── rv32i.vcd      # Generated waveform
+│   └── boot.hex       #Compiled RISC-V assembly program
 ├── fw/
-│   ├── boot.S         # Sample program (add x1 and x2, store to mem)
-│   └── gen_hex.py     # Build boot.hex
+│   ├── boot.S         #Sample program (add x1 and x2, store to mem)
+│   └── gen_hex.py     #Build boot.hex
 └── README.md
 ```
 ---
