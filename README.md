@@ -1,6 +1,6 @@
 # RV32I Soft-Core CPU (Verilog 2001)
 
-A minimal, modular, and simulation-ready RISC-V RV32I-compatible processor core written in **pure Verilog 2001**.This soft-core supports key RV32I instructions and executes programs loaded via a `.hex` memory file — validated through waveform and memory inspection.
+A minimal, modular, and simulation-ready RISC-V RV32I-compatible processor core written in **pure Verilog 2001**.This soft-core supports key RV32I instructions and executes programs loaded via a `.hex` memory file, validated through waveform and memory inspection.
 
 > Fully modular.  
 > Instruction and data memory support.  
